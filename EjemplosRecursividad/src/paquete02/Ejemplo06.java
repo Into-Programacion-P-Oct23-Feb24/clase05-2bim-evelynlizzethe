@@ -19,6 +19,7 @@ public class Ejemplo06 {
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
+            // se llama a la funcion obtenerSuma 
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -29,6 +30,7 @@ public class Ejemplo06 {
         }
         
         for (int i = 0; i < valor1.length; i++) {
+            //ciclo repetitivo for 
             int num1 = valor1[i];
             int num2 = valor2[i];
             int suma = obtenerSuma(num1, num2); 
@@ -47,6 +49,7 @@ public class Ejemplo06 {
                 return b;
             } else {
                 return 1 + obtenerSuma(a, b - 1);
+                // se retorna 1 + obtenerSuma
             }
         }
     }
